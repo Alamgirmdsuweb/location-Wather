@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Weather App</title>
+        <link rel="stylesheet" href="style.css">
+         <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    </head>
+    <body>
+        <div class="wrapper ">     
+            <header><i i class="bx bx-left-arrow alt"></i> Weather App</header>
+            <section class="input-part">
+                <p class="info-text"></p>
+                <input type=" text" placeholder="Enter a city name"  spellcheck="false" required>
+                <div class="separator"></div>
+                <button> Get Device Location</button>
+            </section>
+            <section class="weather-part">
+                <img src=" img/clear.svg"alt="weather Icon">
+                <div class ="temp">
+                    <span class="numb"></span>
+                    <span class ="deg">&deg;</span>c
+                </div>
+                <div class="weather">
+                    
+                </div>
+                <div class="location">
+                    <i class = bx bx map></i>
+                    <span></span>
+                </div>
+                <div class="bottom-details">
+                    <div class="column feels">
+                        <i class="bx bxs-thermometer"></i>
+                        <div class="details">
+                            <div class="temp">
+                                <span class="numb-2"></span>
+                                <span class="deg">&deg</span>c
+
+
+                            </div>
+                            <p> Fells like</p>
+                        </div>
+                    </div>
+                    <div class="column humidity">
+                        <i class="bx bxs-droplet-half"></i>
+                        <div class="details">
+                            <div class="temp">
+                                <span></span>
+                                
+
+                            </div>
+                            <p> Humidity</p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+        <script src="apps.js"></script> 
+    </body>
+</html>
